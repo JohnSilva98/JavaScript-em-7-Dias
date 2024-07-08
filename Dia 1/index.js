@@ -51,6 +51,7 @@ function saleStatus(status, total) {
 
 saleStatus("Approved", 20);
 
+//calculo de porcentagem
 function percentage10(price) {
   return price - (price * 10) / 100;
 }
