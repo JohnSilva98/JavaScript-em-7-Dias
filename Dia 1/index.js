@@ -50,6 +50,12 @@ function saleStatus(status, total) {
 }
 
 saleStatus("Approved", 20);
+
+function percentage10(price) {
+  return price - (price * 10) / 100;
+}
+
+console.log(percentage10(100));
 // variaveis de tipo referencia são mutáveis, ou seja, podem ser
 // alteradas, o valor da variavel pode ser alterado
 // variaveis de tipo referencia são passadas por referência, ou seja,
