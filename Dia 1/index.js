@@ -8,3 +8,8 @@ console.log(firstName + " " + lastName);
 //primeira palavra em minúsculo
 // a segunda letra do nome é maiuscula
 //JS é case sensitive, ou seja, letra maiuscula e minúsculas são diferentes
+
+const price = 30;
+//price = 20;
+console.log(price);
+//variaveis constantes nunca terão seu valor alterado, o valor dela se mantem fixo(constante)
