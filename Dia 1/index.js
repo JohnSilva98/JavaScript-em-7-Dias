@@ -44,7 +44,12 @@ console.log(pen);
 let friends = ["Marcos", "Anderson", "Guilherme", "Pedro", "Joao"];
 console.log(friends);
 //para armazenar uma lista de items dentro de uma unica variavel usamos os arrays
+function saleStatus(status, total) {
+  //código da função
+  console.log("Transaction " + status + " Total amount: $ " + total);
+}
 
+saleStatus("Approved", 20);
 // variaveis de tipo referencia são mutáveis, ou seja, podem ser
 // alteradas, o valor da variavel pode ser alterado
 // variaveis de tipo referencia são passadas por referência, ou seja,
