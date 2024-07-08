@@ -30,6 +30,7 @@ let itemColor; //variavel tipo undefined
 
 //variaveis do tipo referencia
 //object, array, function, date, regExp, error
+//objetos é um grupo de informações referentes a um objeto
 let pen = {
   itemName: "Pen",
   itemPrice: 3,
@@ -38,6 +39,12 @@ let pen = {
 };
 pen.itemColor = "blue";
 console.log(pen);
+
+//Arrays
+let friends = ["Marcos", "Anderson", "Guilherme", "Pedro", "Joao"];
+console.log(friends);
+//para armazenar uma lista de items dentro de uma unica variavel usamos os arrays
+
 // variaveis de tipo referencia são mutáveis, ou seja, podem ser
 // alteradas, o valor da variavel pode ser alterado
 // variaveis de tipo referencia são passadas por referência, ou seja,
