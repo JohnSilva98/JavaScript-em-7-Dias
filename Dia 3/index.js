@@ -1,15 +1,15 @@
-const book = {
-  bookTitle: "Atomic Habits",
-  author: "James Clear",
-  bookPages: 306,
-  bookYear: 2018,
-  bookChapters: {
-    chap1: "Fundamentals",
-    chap2: "The 1% Rule",
-  },
-  printBook: function () {
-    console.log("printing...");
-  },
-};
+function createBook(title, author, pages, year) {
+  const book = {
+    bookTitle: title,
+    author: author,
+    bookPages: pages,
+    bookYear: year,
+    printBook: function () {
+      console.log("printing...");
+    },
+  };
+  return book;
+}
 
-book.printBook();
+const book1 = createBook("Atomic Habits", "James Clear", 306, 2018);
+console.log(book1);
