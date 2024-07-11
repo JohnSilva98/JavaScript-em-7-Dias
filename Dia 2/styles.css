@@ -1,0 +1,25 @@
+h1 {
+  text-decoration: underline;
+  font-size: 8rem;
+}
+
+body {
+  background-color: #414040;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+span {
+  color: seagreen;
+}
+
+.fade {
+  transition: opacity 0.8s ease-in-out;
+  opacity: 1;
+}
+
+.fade.hidden {
+  opacity: 0;
+}
