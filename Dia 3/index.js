@@ -22,7 +22,7 @@ function CreateBook(title, author, pages, year) {
 }
 
 const book1 = createBook("Atomic Habits", "James Clear", 306, 2018);
-const book2 = new CreateBook(
+const book2 = new CrpeateBook(
   "Think and grow rich",
   "Napolean Ceasar",
   450,
