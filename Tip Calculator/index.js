@@ -1,6 +1,13 @@
 function formatMoney(value) {
+  value = Math.ceil(value * 100) / 100;
+
   value = value.toFixed(2);
   return "$ " + value;
+}
+
+function formatSplit(value) {
+  if (value == 1) return value + " person";
+  return value + " people";
 }
 
 function update() {
@@ -19,11 +26,6 @@ function update() {
   //   exibindo o valor total no html
   document.getElementById("totalWithTip").innerHTML = formatMoney(totalValue);
   //   exibindo o valor de cada pessoa no html
-  if (splitValue === 1) {
-    splitValue.innerHTML = split + " Person";
-  } else {
-    splitValue.innerHTML = split + " People";
-  }
-
+  document.getElementById("splitValue").innerHTML = formatSplit(split);
   document.getElementById("billEach").innerHTML = formatMoney(eachValue);
 }
